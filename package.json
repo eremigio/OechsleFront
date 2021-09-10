@@ -1,0 +1,54 @@
+{
+  "name": "edinson-remigio",
+  "version": "1.0.0",
+  "description": "Edinson",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
+  },
+  "standard": {
+    "ignore": [
+      "/api/**"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "apollo-boost": "^0.4.9",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "firebase": "^9.0.2",
+    "graphql": "^15.5.3",
+    "html-webpack-plugin": "^5.3.2",
+    "react-apollo": "^3.1.5",
+    "react-async": "^10.0.1",
+    "react-async-await": "^1.5.0",
+    "standard": "^16.0.3",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0",
+    "wepack-cli": "0.0.1-security"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
